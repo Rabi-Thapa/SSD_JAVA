@@ -1,0 +1,22 @@
+package lab6;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class NameManager {
+	static List<String> names= new ArrayList<>();
+	
+	public void addName(String name) {
+		names.add(name);
+	}
+	
+	public static void main(String [] args) {
+		Iterator iter= names.iterator();
+		while(iter.hasNext()) {
+			System.out.println(iter.next());
+		}
+	}
+	
+	
+}

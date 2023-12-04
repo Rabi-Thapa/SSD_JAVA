@@ -1,0 +1,19 @@
+package lab7;
+
+
+
+public class Driver {
+
+	public static void main(String[] args) {
+		EmailStore es= new EmailStore();
+		es.addEmail("rabi");
+		es.addEmail("thapa");
+		es.addEmail("magar");
+		
+		System.out.println(es.hasEmail("rabi"));
+		System.out.println(es.hasEmail("hululu"));
+		es.addEmail("thapa");
+		es.displayEmails();
+		
+	}
+}

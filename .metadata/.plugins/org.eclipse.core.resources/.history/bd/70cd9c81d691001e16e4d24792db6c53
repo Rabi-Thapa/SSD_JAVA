@@ -1,0 +1,19 @@
+package lab7;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+
+public class WordCounter {
+	private final Map<String, Integer> wordMap= new HashMap<String, Integer>();
+	
+	void addWord(String word) {
+		Integer value;
+		for(Entry<String, Integer> entry: wordMap.entrySet()) {
+//			String key= entry.getKey();
+			value=entry.getValue();
+		}
+		wordMap.put(word, value+1);
+	}
+	
+}

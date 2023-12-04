@@ -1,0 +1,13 @@
+package lab7;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		EmailStore es= new EmailStore();
+		es.addEmail("hello");
+		
+	}
+}

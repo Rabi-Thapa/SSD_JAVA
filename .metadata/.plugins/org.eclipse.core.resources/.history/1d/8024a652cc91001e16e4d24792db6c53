@@ -1,0 +1,17 @@
+package lab7;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class EmailStore {
+	Set<String> emailAddress= new HashSet<>();
+	public void addEmail(String email) {
+		emailAddress.add(email);
+		
+	}
+	
+	
+	
+	
+
+}

@@ -1,0 +1,11 @@
+package polymorph;
+
+public class Staff {
+	private StaffMember[] staffList;
+	
+	public Staff() {
+		staffList= new StaffMember()[6];
+		
+	}
+	
+}
