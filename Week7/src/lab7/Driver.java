@@ -15,18 +15,7 @@ public class Driver {
 		System.out.println(es.addEmail("abcde@tbc.in"));
 		es.displayEmails();
 		
-		
-		
-		
-		
-		
-		
 		System.out.println("\n\n\n");
-		
-		
-		
-		
-		
 		
 		WordCounter wc= new WordCounter();
 		wc.addWord("rabi");

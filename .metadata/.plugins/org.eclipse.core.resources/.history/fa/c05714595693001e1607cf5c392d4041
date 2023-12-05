@@ -1,0 +1,15 @@
+package lab1;
+
+public class Ellipse extends Rectangle{
+	private int x_axis;
+	private int y_axis;
+	
+	Ellipse(int x_axis, int y_axis) {
+		super(x_axis, y_axis);
+	}
+	@Override
+	public double getArea() {
+		return Math.PI * super.getArea();
+	}
+
+}

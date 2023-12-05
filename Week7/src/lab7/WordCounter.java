@@ -17,17 +17,21 @@ public class WordCounter {
 		}
 	}
 	
+//	void addSentence(String sentence) {
+//		String [] splitSent= sentence.split(" ");
+//		for(int i=0; i<splitSent.length; i++) {
+//			if(wordMap.containsKey(splitSent[i])) {
+//				int count= wordMap.get(splitSent[i]);
+//				wordMap.put(splitSent[i], count+1);
+//			}
+//			else {
+//				wordMap.put(splitSent[i], 1);
+//			}
+//		}
+//	}
+	
 	void addSentence(String sentence) {
-		String [] splitSent= sentence.split(" ");
-		for(int i=0; i<splitSent.length; i++) {
-			if(wordMap.containsKey(splitSent[i])) {
-				int count= wordMap.get(splitSent[i]);
-				wordMap.put(splitSent[i], count+1);
-			}
-			else {
-				wordMap.put(splitSent[i], 1);
-			}
-		}
+		
 	}
 	
 	

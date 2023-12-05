@@ -1,0 +1,19 @@
+package lab1;
+
+public class Ellipse extends Rectangle{
+	
+	public Ellipse(int sides) {
+		super(sides);
+	}
+	
+	@Override
+	public double getArea() {
+		return Math.PI * super.getArea();
+	}
+	
+	@Override
+	public String toString() {
+		return "Ellipse [height=" + getHeight() + ", width=" + getWidth() + ", sides="+getSides()+", area="+getArea()+ "]";
+	}
+	
+}

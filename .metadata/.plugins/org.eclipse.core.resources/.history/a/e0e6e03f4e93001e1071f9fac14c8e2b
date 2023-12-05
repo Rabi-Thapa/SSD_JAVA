@@ -1,0 +1,22 @@
+package lab1;
+
+public class Rectangle extends Shape{
+	private int length;
+	private int width;
+
+	Rectangle(int sides) {
+		super(sides);
+	}
+	
+	public void setLength(int length) {
+		this.length= length;
+	}
+
+	
+	@Override
+	public int getArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

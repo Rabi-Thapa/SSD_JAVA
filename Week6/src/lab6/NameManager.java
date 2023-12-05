@@ -16,7 +16,16 @@ public class NameManager {
 		for(int i=0; i<names.size(); i++) {
 			if(names.get(i).length() > 15) {
 				names.remove(i);
-				i--;
+			}
+		}
+	}
+	
+	public void removeLongNames2() {
+		Iterator<String> iter= names.iterator();
+		while(iter.hasNext()) {
+			String i= iter.next();
+			if(i.length()>15) {
+				iter.remove();
 			}
 		}
 	}

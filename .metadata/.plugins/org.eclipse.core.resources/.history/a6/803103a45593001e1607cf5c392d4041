@@ -1,0 +1,10 @@
+package lab1;
+
+public class Ellipse extends Rectangle{
+
+	Ellipse(int a, int b) {
+		super(a, b);
+		
+	}
+
+}

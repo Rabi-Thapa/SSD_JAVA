@@ -1,0 +1,16 @@
+package lab1;
+
+public class Rectangle extends Shape{
+	private int length;
+	private int width;
+
+	Rectangle(int sides) {
+		super(sides);
+	}
+	
+	public void setSides(int length, int width) {
+		this.length= length;
+		this.width= width;
+	}
+
+}

@@ -1,0 +1,16 @@
+package lab1;
+
+public class Circle extends Shape{
+	private int radius;
+
+	Circle(int sides) {
+		super(sides);
+		// TODO Auto-generated constructor stub
+	}
+	
+	@Override
+	public int getArea() {
+		return (int)Math.PI * radius * radius;
+	}
+
+}
