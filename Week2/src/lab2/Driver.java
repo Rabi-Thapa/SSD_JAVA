@@ -13,9 +13,11 @@ public class Driver {
 		System.out.println("Total letters: "+ wp.countLetters(text));
 		System.out.println("Length: "+ wp.getLength(text));
 		
-//		text= null;
-//		System.out.println("Total Words: "+ wp.countWords(text));
-//		System.out.println("Total letters: "+ wp.countLetters(text));
-//		System.out.println("Length: "+ wp.getLength(text));
+		wp.setText("Hi my name is");
+		System.out.println("Total Words: "+ wp.countWords(text));
+		System.out.println("Total letters: "+ wp.countLetters(text));
+		System.out.println("Length: "+ wp.getLength(text));
+		
+		Counter c= new WordProcessor();
 	}
 }
