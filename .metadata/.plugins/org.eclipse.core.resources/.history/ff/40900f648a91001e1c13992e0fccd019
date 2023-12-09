@@ -1,8 +1,0 @@
-package lab4;
-
-public class InvalidOptionException extends Exception {
-	public InvalidOptionException(String msg){
-		super(msg);
-		System.out.println("error...");
-	}
-}

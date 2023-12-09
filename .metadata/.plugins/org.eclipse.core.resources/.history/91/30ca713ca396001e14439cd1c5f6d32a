@@ -1,0 +1,44 @@
+package lab7;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+
+public class WordCounter {
+	private final Map<String, Integer> wordMap= new HashMap<String, Integer>();
+	
+	/*
+	 * To add a word to the wordMap with its count
+	 * @param word The word to be added
+	 */
+	void  addWord(String word) {
+		if(wordMap.containsKey(word)) {
+			int count= wordMap.get(word);
+			wordMap.put(word, count+1);
+		}
+		else {
+			wordMap.put(word, 1);
+		}
+	}
+	
+	/*
+	 * 
+	 */
+	void addSentence(String sentence) {
+		String [] words= sentence.split(" ");
+		for(String word: words) {
+			addWord(word);
+		}
+	}
+	
+	
+	void outputResults() {
+		for(Entry<String, Integer> entry: wordMap.entrySet()) {
+			String key= entry.getKey();
+			Integer value= entry.getValue();
+			System.out.println(key + " : " + value);
+		}
+	}
+	
+	
+}

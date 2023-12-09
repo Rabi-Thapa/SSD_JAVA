@@ -5,8 +5,15 @@ import java.util.Map;
 import java.util.Map.Entry;
 
 public class WordCounter {
+	/*
+	 * Private final map to store words and their respective counts
+	 */
 	private final Map<String, Integer> wordMap= new HashMap<String, Integer>();
 	
+	/*
+	 * To add a word to the wordMap with its count
+	 * @param word The word to be added
+	 */
 	void  addWord(String word) {
 		if(wordMap.containsKey(word)) {
 			int count= wordMap.get(word);
@@ -17,24 +24,20 @@ public class WordCounter {
 		}
 	}
 	
-//	void addSentence(String sentence) {
-//		String [] splitSent= sentence.split(" ");
-//		for(int i=0; i<splitSent.length; i++) {
-//			if(wordMap.containsKey(splitSent[i])) {
-//				int count= wordMap.get(splitSent[i]);
-//				wordMap.put(splitSent[i], count+1);
-//			}
-//			else {
-//				wordMap.put(splitSent[i], 1);
-//			}
-//		}
-//	}
-	
+	/*
+	 * To add a sentence to the wordMap 
+	 * @param sentence String separated by spaces
+	 */
 	void addSentence(String sentence) {
-		
+		String [] words= sentence.split(" ");
+		for(String word: words) {
+			addWord(word);
+		}
 	}
 	
-	
+	/*
+	 * Displays each word within the map, along with its associated occurrence count
+	 */
 	void outputResults() {
 		for(Entry<String, Integer> entry: wordMap.entrySet()) {
 			String key= entry.getKey();

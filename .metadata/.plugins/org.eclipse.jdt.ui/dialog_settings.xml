@@ -64,11 +64,11 @@
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 	<section name="JavadocWizardDialog">
-		<item key="DIALOG_X_ORIGIN" value="460"/>
+		<item key="DIALOG_X_ORIGIN" value="150"/>
 		<item key="DIALOG_Y_ORIGIN" value="11"/>
-		<item key="DIALOG_WIDTH" value="1022"/>
-		<item key="DIALOG_HEIGHT" value="836"/>
-		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_WIDTH" value="818"/>
+		<item key="DIALOG_HEIGHT" value="698"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 	<section name="javadoc">
 		<item key="javadoc_command_history" value="C:\Program Files\Java\jdk-18.0.2.1\bin\javadoc.exe"/>
@@ -87,13 +87,48 @@
 		<item key="nonavbar" value="false"/>
 		<item key="openinbrowser" value="false"/>
 		<item key="source" value="18"/>
-		<item key="antpath" value="E:\L5 SEM 1\SSD\Week3\javadoc.xml"/>
-		<item key="destdir" value="E:\L5 SEM 1\SSD\Week3\doc"/>
+		<item key="antpath" value="E:\L5 SEM 1\SSD\Week7\javadoc.xml"/>
+		<item key="destdir" value="E:\L5 SEM 1\SSD\Week7\doc"/>
 		<section name="projects">
-			<section name="Week3">
+			<section name="SSD_2023_Mock_Assign">
 				<item key="href" value=""/>
-				<item key="destdir" value="E:\L5 SEM 1\SSD\Week3\doc"/>
-				<item key="antpath" value="E:\L5 SEM 1\SSD\Week3\javadoc.xml"/>
+				<item key="destdir" value="C:\Users\a\Downloads\SSD_2023_Mock_Assign\doc"/>
+				<item key="antpath" value="C:\Users\a\Downloads\SSD_2023_Mock_Assign\javadoc.xml"/>
+			</section>
+			<section name="Week7">
+				<item key="href" value=""/>
+				<item key="destdir" value="E:\L5 SEM 1\SSD\Week7\doc"/>
+				<item key="antpath" value="E:\L5 SEM 1\SSD\Week7\javadoc.xml"/>
+			</section>
+			<section name="UML">
+				<item key="href" value=""/>
+				<item key="destdir" value="E:\L5 SEM 1\SSD\UML\doc"/>
+				<item key="antpath" value="E:\L5 SEM 1\SSD\UML\javadoc.xml"/>
+			</section>
+			<section name="Week2">
+				<item key="href" value=""/>
+				<item key="destdir" value="E:\L5 SEM 1\SSD\Week2\doc"/>
+				<item key="antpath" value="E:\L5 SEM 1\SSD\Week2\javadoc.xml"/>
+			</section>
+			<section name="Week1">
+				<item key="href" value=""/>
+				<item key="destdir" value="E:\L5 SEM 1\SSD\Week1\doc"/>
+				<item key="antpath" value="E:\L5 SEM 1\SSD\Week1\javadoc.xml"/>
+			</section>
+			<section name="Week4">
+				<item key="href" value=""/>
+				<item key="destdir" value="E:\L5 SEM 1\SSD\Week4\doc"/>
+				<item key="antpath" value="E:\L5 SEM 1\SSD\Week4\javadoc.xml"/>
+			</section>
+			<section name="Week6">
+				<item key="href" value=""/>
+				<item key="destdir" value="E:\L5 SEM 1\SSD\Week6\doc"/>
+				<item key="antpath" value="E:\L5 SEM 1\SSD\Week6\javadoc.xml"/>
+			</section>
+			<section name="Week5">
+				<item key="href" value=""/>
+				<item key="destdir" value="E:\L5 SEM 1\SSD\Week5\doc"/>
+				<item key="antpath" value="E:\L5 SEM 1\SSD\Week5\javadoc.xml"/>
 			</section>
 		</section>
 	</section>
