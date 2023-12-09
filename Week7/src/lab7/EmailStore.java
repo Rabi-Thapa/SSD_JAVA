@@ -9,7 +9,7 @@ public class EmailStore {
 	 */
 	Set<String> emailAddress = new HashSet<>();
 
-	/*
+	/**
 	 *  To store the given email to the Set and it returns true if email is added
 	 *  @param email The email address to be added
 	 */

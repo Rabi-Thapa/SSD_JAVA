@@ -45,6 +45,4 @@ public class WordCounter {
 			System.out.println(key + " : " + value);
 		}
 	}
-	
-	
 }
